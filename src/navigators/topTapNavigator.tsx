@@ -1,8 +1,8 @@
 import React from 'react';
-import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {NavigationContainer} from '@react-navigation/native';
 import {ToDo, InProgress, Done} from '../screens';
-const Tab = createMaterialTopTabNavigator();
+const Tab = createBottomTabNavigator();
 
 function MyTabs() {
   return (
